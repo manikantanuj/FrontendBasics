@@ -1,0 +1,74 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #f4f4f4;
+}
+
+header{
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0px;
+}
+
+nav ul{
+     list-style: none;
+    /* Above removes bullets */
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 2px 5px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    /* Above removes underline */
+}
+/* Section CSS */
+
+section {
+    padding: 20px;
+    background-color: #fff;
+    margin: 20px auto;
+    width: 80%;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.project{
+    width: 50%;
+    margin: 1%;
+    float: left;
+    border: 1 px solid #ddd;
+    background-color: #f9f9f9;
+}
+
+#projects::after{
+    content:"";
+    display:block;
+    clear: both;
+
+}
+
+#skills ul{
+     list-style: none;
+     padding: 0px;
+}
+
+#skills li {
+    margin-bottom: 10px;
+}
+
+footer{
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    margin-top: 20px;
+}
